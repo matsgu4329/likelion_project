@@ -19,16 +19,16 @@ public abstract class Role {
     abstract Policy getObj();
 
     abstract public void show();
-    String getName() {
+    public String getName() {
         return this.name;
     };
-    String getMajor() {
+    public String getMajor() {
         return this.major;
     };
-    String getPart() {
+    public String getPart() {
         return this.part;
     };
-    int getBatch() {
+    public int getBatch() {
         return this.batch;
     };
 
